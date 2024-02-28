@@ -1,8 +1,34 @@
-.fondo{
+.fondo {
     background-color: burlywood;
 }
 
-.miTexto{
+
+.miTexto {
     font-size: 80px;
-    color:chocolate;
+    color: chocolate;
+    display: flex;
+    align-items: center;
+}
+
+.borde {
+    margin-top: 1em;
+    padding:  100px;
+    border: rgb(0, 0, 0) 5px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mario-container{
+    background-color: aqua;
+    margin: auto;
+    width: 85vw;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
 }

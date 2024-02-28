@@ -1,0 +1,95 @@
+/* Reset CSS */
+
+/* Elimina márgenes y relleno predeterminados */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, figure, hr {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Establece la caja del modelo de borde en todas partes */
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
+  abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    box-sizing: border-box;
+  }
+  
+  /* Configura la fuente y el tamaño predeterminados */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Elimina la decoración de los enlaces */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Restablece el estilo de lista */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Elimina la sangría predeterminada en las listas */
+  ul, ol, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Restablece la alineación del texto */
+  h1, h2, h3, h4, h5, h6, p {
+    text-align: left;
+  }
+  
+  /* Restablece la apariencia del cursor */
+  button, input, select, textarea {
+    cursor: pointer;
+  }
+  
+  /* Restablece las propiedades del borde de la imagen */
+  img {
+    border-style: none;
+    vertical-align: middle;
+  }
+  
+  /* Restablece las propiedades de la tabla */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Restablece la apariencia de los elementos de formulario */
+  button, input, select, textarea {
+    margin: 0;
+  }
+  
+  /* Elimina el relleno y el margen de los elementos de formulario en IE */
+  button, input {
+    overflow: visible;
+  }
+  
+  /* Restablece la apariencia de los elementos de formulario en Safari */
+  button, input, select, textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  /* Restablece la apariencia de los elementos de formulario en Edge e IE */
+  button, input {
+    outline: none;
+  }
+  
+  /* Restablece la apariencia del elemento progress en Firefox */
+  progress {
+    vertical-align: baseline;
+  }
+  
